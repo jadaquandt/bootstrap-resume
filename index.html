@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" type = "text/css" href = "styles.css" />
-    <title>Bootstrap Resume for Jada Q</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>JQ</title>
 </head>
 <body>
-    
+<!--Using bootstrap, create a nav. I also included a makeshift logo for myself-->
+    <header>
+        <div id="navbar">
+            <img class="toplogo" src="img/mylogo.png" alt="">
+            <ul class="nav pt-2 float-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+<!--I created a intro here using the jumbotron-->
+    <div class="jumbotron p-4">
+        <h1 class="display-4">Hi! I'm Jada Quandt.</h1>
+        <p class="lead">I'm a web-development student at DigitalCrafts in Atlanta, GA</p>
+        <img class="profile" src="img/profilepic.jpg" alt="Photo of Jada Quandt">
+        <hr class="my-3">
+        <p>Click the button below to check out some of my projects!</p>
+        <p class="lead">
+          <a class="btn btn-info btn-lg" href="/portfolio.html" role="button">Jada's Portfolio</a>
+        </p>
+      </div>
+
+<!--Prompt for people to contact me.-->
+    <h2 id="contact">Contact me:</h2>
+    <div id="contactme">
+<!--I utilzied Bootstrap's buttons for my social network links below-->
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-dark">
+            <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank">
+                <img class= "social" src="img/linkedinlogo.png" alt="LinkedIn">
+            </a>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark">
+            <a href="mailto:jadaquandt@gmail.com">
+                <img class= "social" src="img/gmaillogo.png" alt="Email me here">
+            </a>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark">
+            <a href="https://github.com/jadaquandt" target="_blank" alt="Github Profile">
+                <img class="social" src="img/githublogo.png" alt="Github">
+            </a>
+        </button>
+
+        <button type="button" class="btn btn-outline-dark">
+            <a href="https://twitter.com/JadaQuandt" target="_blank">
+                <img class= "social" src="img/twitterlogo.png" alt="Twitter">
+            </a>
+        </button>
+      </div>
+    </div>
+
 </body>
 </html>

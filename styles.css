@@ -1,0 +1,41 @@
+.profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+.nav-link {
+    color: #25a2b7;
+}
+
+#navbar {
+    background-color: lightgrey;
+}
+
+.toplogo {
+    width: 60px;
+}
+
+.jumbotron {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.social {
+    width: 40px;
+}
+
+#contactme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+.nav-link {
+    color: #25a2b7;
+}
+
+#navbar {
+    background-color: lightgrey;
+}
+
+.toplogo {
+    width: 60px;
+}
+
+#portfoliotext {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#githublink {
+    color: #25a2b7;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 200px;
+}
